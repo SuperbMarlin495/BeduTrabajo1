@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>Meta</title>
-    </head>
-    <body>
-        <h1>Hola mundo!</h1>
-    </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practica 2.4.2</title>
+</head>
+<body>
+	<h1>Factorizacion con formula general</h1>
+	<p>
+		Recordar que la formula general existe para poder sacar los dos valores de x de una ecuacion cuadratica al momento de factorizar:
+	</p>
+	<p>Siendo que los terminos que se ocupan para resolverla se dividen en : A B y C</p>
+	<p>A es la contante de el termino cuadratico </p>
+	<p>B es la constante de el termino con variable en potencia 1</p>
+	<p>C siendo la constante sin vaiable</p>
+	<p>x = [-b +-  √(b∧2 - 4ac)]/2a </p>
+
+	  	<form >
+			<p>Escribe los dato de la formula si no tiene</p>
+			<p>Si alguna contante es cero favor de ponerlo</p>
+	  	  	<label> Dato A:   <input type="number" required id="ida" size="5" > X²</label>
+		<div>
+	  	  	<label> Dato B:   <input type="number" required id="idb" size="5" > X </label>
+		</div><div>
+			<label> Dato C:   <input type="number" required id="idc" size="5" ></label>
+		</div> 
+		</form>
+			<button onclick="explicacion()"> Calcular </button>
+
+			
+	<script src="calculo.js">
+		
+	</script>
 </html>
