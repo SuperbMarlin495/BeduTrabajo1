@@ -23,17 +23,4 @@ function explicacion(){
         document.writeln("<br>Favor de revisar las constantes")
     }
 
-
-    let aposo6 = Math.sqrt(apaso5);
-    let abajo = 2*a;
-    let semif1 = apaso1 + aposo6;
-    let semif2 = apaso1 - aposo6;
-    let final1 = semif1/abajo;
-    let final2 = semif2/abajo;
-
-    if(apaso5 >= 0){
-        document.write("<br>Tu formula ya sustituida es:  x = [-("+b+") +- √("+b+"∧2 - 4("+a+")("+c+"))]/2("+a+")<br>"+"<br>");
-        document.write("<br>El valor de X1 es: " + final1);
-        document.write("<br>El valor de X2 es: " + final2);
-    }
 }
